@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --bg-1:#8323FF;
+    --bg-2:#FF2DAF;
+    
+
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, var(--bg-1), var(--bg-2));
+    position: relative;
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    position: absolute;
+    width: 746px;
+    height: 632px;
+    background-color: #1E1F28;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border: 8px solid #8323FF;
+    border-radius: 16px;
+
+    padding: 30px;
+
+}
+
+main > iframe{
+    width: 100%;
+    height: 500px;
+}
+
+main > a{
+    width: 40px;
+    height: 45px;
+    display: block;
+    margin: auto;
+
+    margin-top: 15px;
+
+
+    border-radius: 50%;
+
+}
+
+main > a:hover{
+    background-color:  #8B8D9B;
+
+}
+.material-symbols-outlined{
+   font-size: 40px;
+   color: #fff;
+
+}
